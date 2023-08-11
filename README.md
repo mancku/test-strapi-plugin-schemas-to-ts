@@ -1,4 +1,10 @@
-# 🚀 Getting started with Strapi
+# TEST Strapi Plugin Schemas to TS
+
+Test-Strapi-Plugin-Schemas-to-TS is a project for **Strapi 4.4 or later** that serves as a test for the plugin `Strapi-Plugin-Schemas-to-TS`.
+
+The plugin is referenced as a git submodule. Having the code of the plugin allows for this project to have their schemas turned into Typescript interfaces, so the conversion can be checked upon.
+
+## 🚀 Getting started with Strapi
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
 
