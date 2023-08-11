@@ -1,23 +1,25 @@
 {
   "name": "test-strapi-plugin-schemas-to-ts",
-  "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "A project that referencing strapi-plugin-schemas-to-ts as a submodule to check if the interfaces are correctly generated",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "prettier": "^2",
+    "@types/prettier": "^2.7.2"
+  },
   "dependencies": {
-    "@strapi/strapi": "4.4.7",
-    "@strapi/plugin-users-permissions": "4.4.7",
     "@strapi/plugin-i18n": "4.4.7",
+    "@strapi/plugin-users-permissions": "4.4.7",
+    "@strapi/strapi": "4.4.7",
     "better-sqlite3": "7.4.6"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "mancku"
   },
   "strapi": {
     "uuid": "55539eeb-1e85-491f-a6a4-f10594d9c47e"
@@ -26,5 +28,20 @@
     "node": ">=14.19.1 <=18.x.x",
     "npm": ">=6.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mancku/test-strapi-plugin-schemas-to-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mancku/test-strapi-plugin-schemas-to-ts/issues"
+  },
+  "keywords": [
+    "Strapi",
+    "plugin",
+    "schema",
+    "Typescript",
+    "Converter",
+    "Interfaces"
+  ]
 }

@@ -1,0 +1,3 @@
+[submodule "src/plugins/strapi-plugin-schemas-to-ts"]
+	path = src/plugins/strapi-plugin-schemas-to-ts
+	url = https://github.com/mancku/strapi-plugin-schemas-to-ts
