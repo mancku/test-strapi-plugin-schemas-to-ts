@@ -2,6 +2,9 @@
 # Project
 ############################
 .vscode
+src/api/**/content-types/**/*.ts
+**/schemas-to-ts/*.ts
+src/components/**/interfaces/*.ts
 
 ############################
 # OS X

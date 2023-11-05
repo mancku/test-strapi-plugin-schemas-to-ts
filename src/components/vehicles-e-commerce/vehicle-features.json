@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_vehicles_e_commerce_vehicle_features",
+  "info": {
+    "displayName": "Vehicle Features"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

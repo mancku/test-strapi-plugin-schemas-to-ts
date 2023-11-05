@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_vehicles_e_commerce_payment_informations",
+  "info": {
+    "displayName": "Payment Information"
+  },
+  "options": {},
+  "attributes": {
+    "paymentMethod": {
+      "type": "enumeration",
+      "enum": [
+        "credit_card",
+        "paypal",
+        "bank_transfer"
+      ]
+    },
+    "paymentConfirmationNumber": {
+      "type": "string"
+    }
+  }
+}

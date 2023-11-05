@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_vehicles_e_commerce_engines_specifications",
+  "info": {
+    "displayName": "Engines Specifications"
+  },
+  "options": {},
+  "attributes": {
+    "engineType": {
+      "type": "enumeration",
+      "enum": [
+        "Regular",
+        "Wankel"
+      ]
+    },
+    "numberOfCilinders": {
+      "type": "integer"
+    },
+    "horsePower": {
+      "type": "decimal"
+    },
+    "torque": {
+      "type": "float"
+    }
+  }
+}
