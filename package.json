@@ -9,14 +9,14 @@
     "strapi": "strapi"
   },
   "devDependencies": {
-    "prettier": "^2",
-    "@types/prettier": "^2.7.2"
+    "@types/prettier": "^2.7.3",
+    "prettier": "^2.8.8"
   },
   "dependencies": {
-    "@strapi/plugin-i18n": "4.4.7",
-    "@strapi/plugin-users-permissions": "4.4.7",
-    "@strapi/strapi": "4.4.7",
-    "better-sqlite3": "7.4.6"
+    "@strapi/plugin-i18n": "4.14.0",
+    "@strapi/plugin-users-permissions": "4.14.0",
+    "@strapi/strapi": "4.14.0",
+    "better-sqlite3": "9.0.06"
   },
   "author": {
     "name": "mancku"
